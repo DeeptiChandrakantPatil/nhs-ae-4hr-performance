@@ -2,7 +2,7 @@
 
 SQL and Power BI analysis of NHS England monthly A&E statistics, asking: **which NHS trusts miss the 4-hour A&E standard, and is performance improving or worsening?**
 
-![Dashboard](docs/ae_dashboard.png)
+![Dashboard](ae_dashboard.png)
 
 ## Key findings
 
@@ -49,8 +49,8 @@ Wildcard multi-file reads, GROUP BY and aggregates, CAST and strptime, CTEs, win
 ## Repository contents
 
 - `ae_analysis.ipynb`: SQL notebook (Google Colab)
-- `powerbi/ae_dashboard.pbix`: Power BI dashboard (requires Power BI Desktop on Windows)
-- `docs/`: dashboard screenshots and PDF export
+- `ae_dashboard.pbix`: Power BI dashboard (requires Power BI Desktop on Windows)
+- `ae_dashboard.pdf` and `ae_dashboard.png`: dashboard export and screenshot
 
 ## Tools
 
